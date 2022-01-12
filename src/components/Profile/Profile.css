@@ -1,22 +1,24 @@
 .Profile {
-  width: 270px;
-  height: 370px;
+  width: 300px;
   margin-left: auto;
   margin-right: auto;
   padding-top: 20px;
-  outline: solid 1px green;
+  /* outline: solid 1px green; */
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .Profile__description {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-top: 20px;
 }
 
 .Profile__avatar {
   display: block;
   height: 50px;
   width: 50px;
+  border-radius: 50%;
 }
 
 p {
@@ -26,4 +28,14 @@ p {
 
 .Profile__stats {
   display: flex;
+  justify-content: space-around;
+  padding: 0px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #cdd9e5;
+}
+
+.Profile__item {
+  display: flex;
+  flex-direction: column;
 }

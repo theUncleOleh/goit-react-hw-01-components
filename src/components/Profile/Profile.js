@@ -9,19 +9,19 @@ export default function Profile(props) {
         <img src={avatar} alt={user} className="Profile__avatar" />
         <p className="Profile__name">{user}</p>
         <p className="Profile__tag">{tag}</p>
-        <p className="Profile__ocation">{location}</p>
+        <p className="Profile__location">{location}</p>
       </div>
 
       <ul className="Profile__stats">
-        <li>
+        <li className="Profile__item">
           <span className="Profile__label">Followers</span>
           <span className="Profile__quantity">{followers}</span>
         </li>
-        <li>
+        <li className="Profile__item">
           <span className="Profile__label">Views</span>
           <span className="Profile__quantity">{views}</span>
         </li>
-        <li>
+        <li className="Profile__item">
           <span className="Profile__label">Likes</span>
           <span className="Profile__quantity">{likes}</span>
         </li>

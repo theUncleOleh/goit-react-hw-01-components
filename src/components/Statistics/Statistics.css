@@ -1,0 +1,25 @@
+.Statistics {
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+  /* outline: solid 1px green; */
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.Statistics__title {
+  margin: 0px;
+  text-align: center;
+}
+
+.Statistics__list {
+  display: flex;
+  padding-bottom: 20px;
+  justify-content: space-around;
+  padding-left: 0px;
+}
+
+.Statistics__item {
+  display: flex;
+  flex-direction: column;
+}
