@@ -1,0 +1,22 @@
+.List {
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0px;
+}
+
+.List__item {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.List__item:not(:first-child) {
+  margin-top: 15px;
+}
+
+.List__status--true {
+  color: green;
+}
+
+.List__status--false {
+  color: red;
+}

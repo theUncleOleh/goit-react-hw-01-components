@@ -1,0 +1,30 @@
+.Transaction {
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-collapse: collapse;
+}
+
+tr {
+  border: 1px solid #ccc; /* границы между строками */
+}
+
+td,
+th {
+  border: 1px solid #ccc; /* границы между столбцами */
+}
+
+td,
+th {
+  text-align: center;
+}
+
+.Transaction-head {
+  /* width: calc(100% / 3); */
+  height: 40px;
+}
+.Transaction__row {
+  height: 40px;
+}
