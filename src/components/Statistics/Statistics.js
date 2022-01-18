@@ -8,10 +8,10 @@ export default function Statistics(props) {
       <h2 className="Statistics__title">Upload stats</h2>
 
       <ul className="Statistics__list">
-        {stats.map(stat => (
-          <li key={stat.id} className="Statistics__item">
-            <span>{stat.label}</span>
-            <span>{stat.percentage}</span>
+        {stats.map(({ id, label, percentage }) => (
+          <li key={id} className="Statistics__item">
+            <span>{label}</span>
+            <span>{percentage}</span>
           </li>
         ))}
         {/* <li class="item">

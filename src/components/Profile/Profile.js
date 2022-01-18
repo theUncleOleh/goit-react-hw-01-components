@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 import './Profile.css';
 
 export default function Profile(props) {
-  const { avatar, user, tag, location, followers, views, likes } = props;
+  const { avatar, user, tag, location, stats } = props;
   return (
     <div className="Profile">
       <div className="Profile__description">
@@ -15,15 +15,15 @@ export default function Profile(props) {
       <ul className="Profile__stats">
         <li className="Profile__item">
           <span className="Profile__label">Followers</span>
-          <span className="Profile__quantity">{followers}</span>
+          <span className="Profile__quantity">{stats.followers}</span>
         </li>
         <li className="Profile__item">
           <span className="Profile__label">Views</span>
-          <span className="Profile__quantity">{views}</span>
+          <span className="Profile__quantity">{stats.views}</span>
         </li>
         <li className="Profile__item">
           <span className="Profile__label">Likes</span>
-          <span className="Profile__quantity">{likes}</span>
+          <span className="Profile__quantity">{stats.likes}</span>
         </li>
       </ul>
     </div>
